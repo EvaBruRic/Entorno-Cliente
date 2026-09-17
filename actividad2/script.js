@@ -7,13 +7,13 @@ function cubo(numero) {
 */
 
 //Solucion:
-let num = 1.5;
+let num = 5;
+
 function cubo(numero) {
     let resultado = numero * numero * numero;
 
     if (!Number.isInteger(numero)) {
-        return resultado;
-        alert("El numero no es un entero");
+        alert("El parámetro " + numero + " pasado no es un entero");
         return false;
     }
 
